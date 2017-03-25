@@ -1,5 +1,5 @@
 # Smiles.care
-Smiles.care Customer Facing Site
+Smiles.care Public Facing Site. As part of our committment to give we'll release all of our source cdoe as well under MIT license.
 
 ## Getting Started
 
