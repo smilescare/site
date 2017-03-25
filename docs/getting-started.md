@@ -1,6 +1,3 @@
-# Smiles.care
-Smiles.care Customer Facing Site
-
 ## Getting Started
 
 ### Requirements
@@ -157,3 +154,16 @@ to [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/)
 or [Heroku](https://www.heroku.com/) this way. Both will execute `yarn install --production`
 upon receiving new files from you. Note, you should only deploy the contents
 of the `/build` folder to a remote server.
+
+### How to Update
+
+If you need to keep your project up to date with the recent changes made to RSK,
+you can always fetch and merge them from [this repo](https://github.com/kriasoft/react-starter-kit)
+back into your own project by running:
+
+```shell
+$ git checkout master
+$ git fetch react-starter-kit
+$ git merge react-starter-kit/master
+$ yarn install
+```
